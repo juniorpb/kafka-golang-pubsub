@@ -19,7 +19,7 @@ func newKafkaWriter(kafkaURL, topic string) *kafka.Writer {
 func main() {
 
 	kafkaURL := "localhost:9092"
-	topic := "topic-teste"
+	topic := "CARD_PGT"
 	writer := newKafkaWriter(kafkaURL, topic)
 	defer writer.Close()
 	fmt.Println("start producing ... !!")
