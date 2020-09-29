@@ -29,7 +29,6 @@ func startKafka() {
 		}
 
 		fmt.Println("Message is: ", string(m.Value))
-
 	}
 }
 
